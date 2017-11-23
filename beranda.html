@@ -1,0 +1,112 @@
+<html>
+	<head>
+		<link rel ="stylesheet" href="http://ccdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+			/*css untuk class container*/
+			div.container{
+				width:"100";
+				/*background-color: aliceblue;*/
+				font-family: 'Segoe UI',Tahoma, Geneva, Verdana, sans-serif;
+			}
+			/*css untuk class header dan footer*/
+			header, footer{
+				clear:left;
+				background-color:Red;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				color:white;
+				text-align: center;
+			}
+			/*css untuk margin*/
+				nav{
+				background-color:Yellow;
+				display: block;
+				width: 100%;
+				height: 40px;
+				clear: left;
+			}
+				nav ul{
+				padding: 0;
+				margin: 0;
+			}
+			nav ul li{
+				display: block;
+				width: 120px;
+				height: 40px;
+				background-color:Yellow;
+				float: left;
+				text-align: center;
+			}
+			nav ul li a{
+				text-decoration:none;
+				color: black;
+			}
+			/*css untuk article*/
+			article{
+				max-width: 70%;
+				padding-right: 10px;
+				float: left;
+				padding-left: 10px;
+				padding-right: 10px;
+				color: white;
+			}
+			/* css untuk bagian samping*/
+			aside{
+				overflow: hidden;
+			}
+			/* style untuk setiap element*/
+			label, input, button{
+				display: block;
+			}
+			input, button{
+				border: 1px solid #fcfcfc;
+				font-size: 14px;
+				padding: 5px;
+			}
+			button{
+				background-color: forestgreen;
+				color: black;
+				margin-top: 10px;
+			}
+
+			p{
+				text-align: justify;
+			}
+			p.copyright{
+				text-align: center;
+			}
+	</style>
+</head>
+<body background ="fighter-13.jpg">
+		<div class ="container" id="container">
+			<header><h2>TAPAK SUCI UNIVERSITAS MUHAMMADIYAH BANJARMASIN</h2></header>
+
+		<nav>
+			<ul>
+				<li><a href="beranda.html"><i class="fa fa-home"></i>Beranda</a></li>
+				<li><a href="REGISTRASI.html"><i class="fa fa-file-text"></i>Registrasi</a></li>
+			</ul>
+		</nav>
+		<!--artikel website-->
+		<article>
+			<h3>TAPAK SUCI PUTERA MUHAMMADIYAH</h3>
+			<p>
+				Tapak Suci, adalah sebuah aliran, perguruan dan organisasi pencak silat yang merupakan anggota IPSI (Ikatan Pencak Silat Indonesia). Tapak Suci termasuk dalam 10 Perguruan Historis IPSI, yaitu perguruan yang menunjang tumbuh dan berkembangnya IPSI sebagai organisasi. Tapak Suci berasas Islam berjiwa persaudaraan berada di bawah naungan persyarikatan Muhammadiyah sebagai organisasi otonom yang ke-11. Tapak suci berdiri pada tanggal 10 Rabiul Awal 1383 H, atau bertepatan dengan tanggal 31 Juli 1963 di kauman, Yogyakarta. Tapak Suci memiliki motto "Dengan Iman dan Akhlak saya menjadi kuat, tanpa Iman dan Akhlak saya menjadi lemah". Organisasi Tapak Suci berkiprah sebagai organisasi pencak silat, berinduk kepada Ikatan Pencak Silat Indonesia dan dalam bidang dakwah pergerakan Tapak Suci merupakan pencetak kader Muhammadiyah. Pimpinan Pusat Tapak Suci Putera Muhammadiyah berkedudukan di kauman Yogyakarta dan memiliki kantor perwakilan di ibukota negara. Tapak Suci mempunyai ketua umum (purn) Mayjen Inf. Afnan Zamhari Priode (2013-2018).
+			</p>
+		</article>
+		<!-- sisi website -->
+		<aside>
+			<h3>Login</h3>
+			<form>
+				<label>Username</label>
+				<input id="Username" value="" type="text" placeholder="Username">
+				<label>Password</label>
+				<input id="Password" value="" type="Password" placeholder="Password">
+				<button><i class="fa fa-sign-in"></i>Klik Login</button>
+			</form>
+		</aside>
+		<!-- footer website -->
+		<footer><p class="copyright">TAPAK SUCI PUTERA MUHAMMADIYAH &copy; 2017</p></footer>
+	</div>
+</body>
+</html>
